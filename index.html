@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eburnea </title>
+    <title> Eburnea </title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -95,7 +95,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>TouchDesigner Web Interface</h1>
+        <h1>Eburnea</h1>
         
         <div class="connection-status">
             Stato connessione: <span id="connectionStatus" class="disconnected">Disconnesso</span>
@@ -143,8 +143,8 @@
     <script>
         // Configurazione WebSocket
         let ws;
-        const serverAddress = 'ws://192.168.1.6:80'; // Cambiare con l'indirizzo del server TouchDesigner
-        const serverPort = '80'; // Cambiare con la porta del server WebSocket in TouchDesigner
+        const serverAddress = 'ws://192.168.1.6:8080'; // Cambiare con l'indirizzo del server TouchDesigner
+        const serverPort = '8080'; // Cambiare con la porta del server WebSocket in TouchDesigner
         
         // Elementi DOM
         const connectionStatus = document.getElementById('connectionStatus');
